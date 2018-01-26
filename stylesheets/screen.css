@@ -1372,25 +1372,32 @@ nav {
   width: 150px;
   margin-bottom: 0;
 }
+/* line 1027, ../sass/screen.scss */
+#about .joinbox .rightbox .description .verifyform .verify {
+  width: 20px;
+  height: 30px;
+  margin: 3px 5px 0;
+  line-height: 1;
+}
 
-/* line 1033, ../sass/screen.scss */
+/* line 1039, ../sass/screen.scss */
 .mark {
   font-size: 14px;
   color: red;
   line-height: 2.6;
 }
 
-/* line 1039, ../sass/screen.scss */
+/* line 1045, ../sass/screen.scss */
 .nomark {
   margin-left: 10px;
 }
 
-/* line 1043, ../sass/screen.scss */
+/* line 1049, ../sass/screen.scss */
 .text-black {
   color: #2c2c2c;
 }
 
-/* line 1047, ../sass/screen.scss */
+/* line 1053, ../sass/screen.scss */
 .text-orange {
   color: orange;
 }
