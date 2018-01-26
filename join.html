@@ -48,12 +48,10 @@
                                 <input type="text" placeholder="请输入您的帐号">
                                 <span class="mark icon-delete">帐号为字母d开头，6-12位的字母与数字组合！</span>
                             </div>
+
                             <div class="formgroup">
                                 <span class="mark">*</span>
-                                <div class="text-icon">
-                                    <input type="text" placeholder="请输入您的密码">
-                                    <span class="icon-visibility"></span>
-                                </div>
+                                <input type="text" placeholder="请输入您的密码">
                                 <span class="mark text-black icon-information">密码为6-12位字母与数字的组合</span>
                             </div>
                             <div class="formgroup">
@@ -134,8 +132,10 @@
                                 <input type="text" placeholder="请输入您常用的QQ号码">
                             </div>
                             <div class="formgroup nomark">
-                                <input type="text" placeholder="请您输入4位纯数字取款密码">
-                                <span class="icon-visibility_off"></span>
+                                <div class="text-icon">
+                                    <input type="text" placeholder="请您输入4位纯数字取款密码">
+                                    <span class="icon-visibility_off"></span>
+                                </div>
                                 <span class="mark text-orange icon-check_circle">取回登入密码的唯一途径，请务必真实！</span>
                             </div>
                         </div>
@@ -145,7 +145,7 @@
                                 <span class="mark">*</span>
                                 <input type="text" placeholder="请输入您的验证码">
                                 <img src="images/verify.jpg" alt="">
-                                <span class="icon-checkmark"></span><span class="mark text-black">本人已满合法年龄，且同意开户协议！</span>
+                                <input type="checkbox" name="verify" value="verify" checked="checked" class="verify"><span class="mark text-black">本人已满合法年龄，且同意开户协议！</span>
                             </div>
                         </div>
                     </div>
